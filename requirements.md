@@ -1,7 +1,7 @@
 # Job Posting Curation Assistant - Requirements
 
 ## Project Overview
-A command-line tool that scrapes and filters tech industry job postings based on user-defined criteria, initially focusing on Greenhouse.io hosted positions.
+A command-line tool that search and filters tech industry job postings based on user-defined criteria, initially focusing on Greenhouse.io hosted positions.
 
 ## Core Functionality
 
