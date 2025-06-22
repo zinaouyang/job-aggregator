@@ -6,9 +6,9 @@ def parse_arguments():
     )
     
     parser.add_argument(
-        "--title", 
+        "title", 
         type=str, 
-        help="Job title to search for (partial matching)"
+        help="Job title to search for (required)"
     )
     
     parser.add_argument(
@@ -26,13 +26,8 @@ def parse_arguments():
     parser.add_argument(
         "--company", 
         type=str, 
-        help="Company name (optional)"
+        help="Company name filter (optional, applied locally)"
     )
     
-    parser.add_argument(
-        "--export", 
-        type=str, 
-        help="Export results to CSV file (provide filename)"
-    )
     
     return parser.parse_args()
